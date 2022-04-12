@@ -1,47 +1,53 @@
-body{
+body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
 #container {
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-.info-card{
+.info-card {
     margin-top: 6em;
     margin-left: auto;
-	margin-right: auto;
+    margin-right: auto;
     background-color: rgb(140, 183, 214);
     width: 400px;
-    border-radius: 10px;
+    border-radius: 1.5em;
     padding: 0.9em 1em 0.9em 1em;
-    color: white;
+    color: hsl(0, 0%, 35%);
     box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.29);
-    background: linear-gradient(0deg, rgba(46,199,255,1) 0%, rgba(47,121,138,1) 100%);
+    background: hsla(18, 76%, 85%, 1);
+    background: linear-gradient(180deg, hsla(18, 76%, 85%, 1) 0%, hsla(203, 69%, 84%, 1) 100%);
+    border-color: hsl(0, 0%, 54%);
+    border-width: 0.1em;
+    border-style: solid;
 }
 
-.info-card h1{
+.info-card h1 {
     font-size: 2em;
-    margin-top: 5em;
+    margin-top: 5.3em;
+    font-weight: 700;
 }
 
-.link-stack{
+.link-stack {
     text-align: right;
+    padding: 0.7em 0.2em 0em 0em;
 }
 
-.link-stack i{
-   padding: 0 0.5em; 
+.link-stack i {
+    padding: 0 0.5em;
     font-size: 1.5em;
 }
 
-a{
-    color: rgb(255, 255, 255);
+a {
+    color: hsl(0, 0%, 35%);
     transition: color 0.5s;
 }
 
-a:hover{
-    color: rgb(209, 209, 209);
+a:hover {
+    color: hsl(0, 0%, 71%);
     transition: color 0.5s;
 }
